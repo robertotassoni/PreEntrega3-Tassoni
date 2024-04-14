@@ -1,0 +1,42 @@
+.serv-principal{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+
+    .serv-article{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 8px;
+        gap: 10px;
+        width: 100%;
+        
+
+        .card img{
+            width: 200px;
+        }
+    }
+}
+
+.servicios article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .item-serv{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        >iframe{
+            width: 100%;
+            height: 300px;
+            aspect-ratio: 16/9;
+        }
+    }
+}
+
